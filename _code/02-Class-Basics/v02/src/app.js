@@ -1,1 +1,2 @@
-console.log('innnn app.js');
+let droneId = 5;
+console.log(window.droneId);
