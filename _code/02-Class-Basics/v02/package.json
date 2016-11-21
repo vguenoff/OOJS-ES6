@@ -1,0 +1,21 @@
+{
+  "name": "drones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "traceur": "0.0.111"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "eslint-plugin-react": "^6.7.1",
+    "lite-server": "^2.2.2"
+  }
+}
