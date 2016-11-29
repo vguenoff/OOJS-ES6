@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "commonjs": true,
@@ -16,7 +16,7 @@ module.exports = {
         ],
         "linebreak-style": [
             "error",
-            "windows"
+            "unix"
         ],
         "quotes": [
             "error",
@@ -26,7 +26,9 @@ module.exports = {
             "error",
             "always"
         ],
-        "no-console": 0
-
+        "no-console": [
+            "error", 
+            { "allow": ["log"] }
+        ]
     }
-};
+}
