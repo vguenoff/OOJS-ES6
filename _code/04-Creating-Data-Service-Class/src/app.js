@@ -10,7 +10,6 @@ dataService.loadData(fleet);
 //     console.log(car.license);
 // }
 
-
 // for(let e of dataService.errors) { 
 // 	console.log(e.message);
 // }
@@ -26,3 +25,6 @@ let cars = dataService.filterCarsByMake('e');
 for(let car of cars)
     console.log(car.make);
 
+for(let e of dataService.errors) {
+    console.log(e.message);
+}
